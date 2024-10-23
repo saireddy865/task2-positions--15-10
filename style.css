@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+}
+
+main {
+    height: 100vh;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: cadetblue;
+    color: blue;
+    /* text-align: center; */
+}
+
+footer {
+    height: 100px;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: honeydew;
+    color: brown;
+    text-align: center;
+}
+
+.icon-container {
+    border: 2px solid;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    z-index: 1;
+}
+
+.icon-container>div {
+    height: 60px;
+    width: 60px;
+}
+
+.item1 {
+    background-color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+.item2 {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 18px;
+}
+
+.item3 {
+    background-color: bisque;
+    text-align: center;
+    padding: 18px;
+}
